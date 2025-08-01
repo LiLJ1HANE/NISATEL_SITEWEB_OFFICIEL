@@ -1,0 +1,507 @@
+{
+  "hero": {
+    "title": {
+      "part1": "Expertise Technique en",
+      "highlight": "Télécommunications"
+    },
+    "experience": "+9 ans d'expérience à votre service"
+  },
+  "applications": {
+    "sectionTitle": {
+      "part1": "Nos domaines",
+      "part2": "d'expertise"
+    },
+    "sectionDescription": "Des solutions d'infrastructure réseau fiables, rapides et adaptées aux professionnels exigeants.",
+    "mobileNetworks": {
+      "title": "Réseaux de téléphonie mobile",
+      "description": "Solutions complètes pour opérateurs mobiles avec une couverture optimale"
+    },
+    "emergency": {
+      "title": "Services de sécurité et secours",
+      "description": "Systèmes critiques pour Défense, Police, Pompiers et services d'urgence"
+    },
+    "transport": {
+      "title": "Réseaux de transports intelligents",
+      "description": "Infrastructures pour autoroutes, réseaux ferroviaires et aéroports"
+    },
+    "privateComms": {
+      "title": "Radiocommunication privés",
+      "description": "Solutions dédiées pour taxis, services météo et entreprises"
+    },
+    "broadcasting": {
+      "title": "Radiodiffusion professionnelle",
+      "description": "Infrastructures pour radios AM/FM de qualité studio"
+    },
+    "measurement": {
+      "title": "Mâts de mesure technique",
+      "description": "Solutions précises pour parcs éoliens et mesures environnementales"
+    }
+  },
+  "cta": {
+    "title": {
+      "part1": "Besoin d'une expertise technique ?",
+      "part2": "Nos ingénieurs vous conseillent"
+    },
+    "button": "Contactez-nous"
+  },
+  "contact": {
+    "alertSent": "Votre message a été envoyé. Nous vous contacterons bientôt.",
+    "services": {
+      "etudes": "Bureau d'études",
+      "fabrication": "Fabrication",
+      "installation": "Installation",
+      "maintenance": "Maintenance",
+      "autre": "Autre demande"
+    },
+    "phone": "Téléphone",
+    "fax": "Fax",
+    "email": "Email",
+    "address": "Adresse",
+    "addressDetails": "06, Résidence Kader, Mers El Kheir, Témara – Maroc",
+    "heroAlt": "Image Contact NISATEL",
+    "heroHighlight": "Contactez",
+    "heroText": "notre équipe",
+    "heroSubtitle": "Nous sommes à votre écoute pour répondre à vos questions et vous accompagner dans vos projets.",
+    "contactDetails": "Nos coordonnées",
+    "contactDetailsText": "N'hésitez pas à nous contacter par téléphone, email ou à nous rendre visite dans nos bureaux.",
+    "sendMessage": "Envoyez-nous un message",
+    "sendMessageText": "Remplissez ce formulaire et nous vous répondrons dans les plus brefs délais.",
+    "fullName": "Nom complet",
+    "company": "Société",
+    "service": "Service concerné",
+    "selectService": "Sélectionnez un service",
+    "yourMessage": "Votre message",
+    "sendButton": "Envoyer le message",
+    "location": "Notre localisation",
+    "mapTitle": "Localisation NISATEL"
+  },
+  "servicesPage": {
+  "mainTitle": "Nos Services",
+  "mainSubtitle": "Avec NISATEL, bénéficiez d'un accompagnement complet de la conception à la maintenance de vos infrastructures, ainsi que de solutions télécoms innovantes pour optimiser vos communications.",
+  "main": {
+    "etudes": {
+      "title": "Bureau d'Études",
+      "description": "Notre bureau d'études propose des solutions sur-mesure pour s'adapter à chaque cahier des charges client (CCTP).",
+      "features": [
+        "Études techniques pour dimensionnement des pylônes selon normes (EUROCODES, BAEL, CM66, NV65, DTU...)",
+        "Dimensionnement de structures métalliques et génie civil (fondations, ferraillage, ancrages...)",
+        "Études de charge et avis de faisabilité sur structures existantes",
+        "Solutions de renforcement pour augmentation de charge utile",
+        "Logiciels spécialisés : ROBOT STRUCTURAL ANALYSIS, SOLIDWORKS, AUTOCAD"
+      ]
+    },
+    "fabrication": {
+      "title": "Fabrication",
+      "description": "Tous nos produits sont fabriqués en interne dans notre usine de 3500m² située à Témara.",
+      "features": [
+        "Chaudronnerie et soudage par des professionnels qualifiés",
+        "Galvanisation à chaud par notre partenaire historique",
+        "Option de mise en peinture après galvanisation",
+        "Contrôle qualité à chaque étape de production",
+        "Capacité à répondre aux demandes spécifiques et urgentes"
+      ]
+    },
+    "installation": {
+      "title": "Montage sur Site",
+      "description": "Nos équipes de monteurs assurent l'installation de nos produits sur l'ensemble du territoire national.",
+      "features": [
+        "Livraison et assemblage par personnel habilité",
+        "Camions plateau équipés de grues auxiliaires",
+        "Parc de poids lourds dédié",
+        "Levage par grutage ou héliportage pour sites difficiles",
+        "Monteurs formés et habilités"
+      ]
+    },
+    "maintenance": {
+      "title": "Maintenance",
+      "description": "Nous proposons des prestations techniques sur tout type de structures métalliques.",
+      "features": [
+        "Visites de contrôle régulières",
+        "Maintenance préventive et corrective",
+        "Expertises post-incendie, vandalisme ou événements climatiques",
+        "Solutions de renforcement structurel",
+        "Rapports détaillés avec préconisations techniques"
+      ]
+    }
+  },
+  "telecomTitle": "Services Télécoms",
+  "telecomSubtitle": "Avec NISATEL, vous disposez d'une large gamme d'équipements télécom, de services et de conseils pour optimiser les performances de votre activité et réduire vos coûts.",
+  "telecom": {
+    "installation": {
+      "title": "Installation des réseaux télécom",
+      "description": "Déploiement complet d'infrastructures télécoms adaptées à vos besoins spécifiques."
+    },
+    "maintenance": {
+      "title": "Entretien des réseaux télécom",
+      "description": "Maintenance préventive et corrective pour garantir la continuité de service."
+    },
+    "voip": {
+      "title": "Téléphonie IP & VOIP",
+      "description": "Solutions de téléphonie sur IP avec PABX/IPBX pour une communication unifiée."
+    },
+    "mobilite": {
+      "title": "Mobilité intra/inter site",
+      "description": "Gestion des communications mobiles entre différents sites géographiques."
+    },
+    "convergence": {
+      "title": "Convergence fixe/mobile",
+      "description": "Intégration parfaite entre vos systèmes de téléphonie fixe et mobile."
+    },
+    "interphone": {
+      "title": "Interphone & contrôle d'accès",
+      "description": "Systèmes de communication et sécurité pour vos accès physiques."
+    },
+    "visio": {
+      "title": "Visioconférence",
+      "description": "Solutions professionnelles de communication visuelle haute qualité."
+    },
+    "cti": {
+      "title": "Couplage téléphonie-informatique",
+      "description": "Intégration CTI pour optimiser vos processus métiers."
+    }
+  }
+},
+"productsPage": {
+  "hero": {
+    "title": "Nos Pylônes",
+    "subtitle": "Découvrez notre gamme complète de pylônes conçus pour répondre à tous vos besoins en matière d'infrastructures de télécommunication et d'antennes."
+  },
+  "products": {
+    "autoportants": {
+      "title": "Pylônes Treillis Autoportants",
+      "features": [
+        "Accès par échelle intérieure/extérieure ou nacelle",
+        "Silhouette constante ou à fruit",
+        "Habillage sur demande",
+        "Mise en peinture personnalisée",
+        "Plateformes de travail et paliers de repos",
+        "Système anti-chute de type rail ou câble",
+        "Système anti intrusion",
+        "Balisage diurne, nocturne, lumineux",
+        "Supports d'antennes",
+        "Mise à la terre et système paratonnerre"
+      ]
+    },
+    "monotubes": {
+      "title": "Pylônes Monotubes",
+      "features": [
+        "Accès par échelle intérieure/extérieure ou nacelle",
+        "Radôme en fibre optionnel",
+        "Cache publicitaire intégré",
+        "Mise en peinture personnalisée",
+        "Plateformes de travail et paliers de repos",
+        "Système anti-chute de type rail ou câble",
+        "Système anti intrusion",
+        "Balisage diurne, nocturne, lumineux",
+        "Supports d'antennes",
+        "Mise à la terre et système paratonnerre"
+      ]
+    },
+    "speciaux": {
+      "title": "Pylônes Spéciaux",
+      "features": [
+        "Pylône provisoire pour chantiers",
+        "Pylône sur châssis mobile",
+        "Pylône haubané pour grandes hauteurs",
+        "Mât rabattable pour zones sensibles",
+        "Solutions sur mesure selon besoins spécifiques"
+      ]
+    },
+    "renforcement": {
+      "title": "Renforcement de Pylônes",
+      "features": [
+        "Renforcement de massifs par surépaisseur",
+        "Élargissement des fondations existantes",
+        "Micropieux pour consolidation",
+        "Ceinturage structurel",
+        "Remplacement d'éléments existants",
+        "Juppage extérieur pour renforcement"
+      ]
+    }
+  },
+  "ctaButton": "Demander un devis"
+},"landingPage": {
+  "hero": {
+    "slides": [
+      {
+        "title": "Gamme complète de pylônes",
+        "subtitle": "conçus pour répondre à tous vos besoins en matière d'infrastructures de télécommunication et d'antennes.",
+        "button": "Découvrez nos services"
+      },
+      {
+        "title": "Besoin d'une infrastructure fibre ou wireless ?",
+        "subtitle": "Contactez-nous pour une étude adaptée à vos besoins spécifiques.",
+        "button": "En savoir plus"
+      },
+      {
+        "title": "Solutions Techniques Professionnelles",
+        "subtitle": "WIFI PROFESSIONNEL, SYSTÈME PARATONNERRE, BALISAGE, CLIMATISATION...",
+        "button": "Contactez-nous"
+      }
+    ]
+  },
+  "about": {
+    "title": "NISATEL - Expertise Marocaine en Télécoms",
+    "description1": "Fondée en 2016, NISATEL est une entreprise marocaine indépendante spécialisée dans le développement, la fabrication et l'installation de pylônes et infrastructures de télécommunication. Nous travaillons en étroite collaboration avec les propriétaires, aménageurs et exploitants de réseaux radio pour proposer des solutions sur mesure.",
+    "description2": "Notre usine de 3500m² à Témara et notre bureau d'études intégré nous permettent de maîtriser toute la chaîne de valeur, de la conception à l'installation.",
+    "button": "Notre histoire"
+  },
+  "values": {
+    "title": "Nos Valeurs",
+    "subtitle": "Les principes qui guident notre action quotidienne",
+    "items": [
+      "Nous entreprenons chaque jour pour construire les réseaux de demain et créer un monde de progrès durable...",
+      "Nous apprenons avec humilité les uns des autres pour donner le meilleur de nous-même.",
+      "La satisfaction de nos clients est notre fierté."
+    ]
+  },
+  "services": {
+    "title": "Nos Services Clés",
+    "subtitle": "Des solutions complètes pour vos besoins en télécommunications",
+    "items": [
+      {
+        "title": "Bureau d'Études",
+        "description": "Conception sur-mesure selon normes EUROCODES, BAEL, CM66 avec nos logiciels spécialisés (ROBOT STRUCTURAL ANALYSIS, SOLIDWORKS).",
+        "button": "Voir plus"
+      },
+      {
+        "title": "Fabrication",
+        "description": "Production dans notre usine de 3500m² à Témara par des chaudronniers et soudeurs qualifiés, avec galvanisation à chaud.",
+        "button": "Voir plus"
+      },
+      {
+        "title": "Maintenance",
+        "description": "Visites de contrôle, expertises post-incident et solutions de renforcement pour prolonger la durée de vie de vos installations.",
+        "button": "Voir plus"
+      }
+    ]
+  },
+  "products": {
+    "title": "Nos Produits Phares",
+    "subtitle": "Des solutions adaptées à chaque besoin technique",
+    "tabs": {
+      "pylones": "Pylônes",
+      "wireless": "Solutions Wireless",
+      "energie": "Énergie"
+    },
+    "items": {
+      "pylones": {
+        "title": "Pylônes Treillis Autoportants",
+        "features": [
+          "Accès par échelle intérieure/extérieure ou nacelle",
+          "Silhouette constante ou à fruit",
+          "Options d'habillage et peinture personnalisée",
+          "Systèmes anti-chute et anti-intrusion intégrés"
+        ],
+        "button": "Voir la gamme"
+      },
+      "wireless": {
+        "title": "Solutions Wireless Haut Débit",
+        "features": [
+          "Équipements réseaux de 2Mbps à 40Gbps",
+          "Couverture Ethernet et transport optique",
+          "Installation et test de fibre optique",
+          "Réflectométrie et qualification"
+        ],
+        "button": "Voir les solutions"
+      },
+      "energie": {
+        "title": "Solutions Énergétiques",
+        "features": [
+          "Ateliers d'énergie de 300A à 3000A",
+          "Batteries étanches ou plomb ouvert",
+          "Onduleurs haute performance",
+          "Coffrets d'alimentation AC/DC sur mesure"
+        ],
+        "button": "Voir les configurations"
+      }
+    }
+  },
+  "applications": {
+    "title": "Nos Domaines d'Intervention",
+    "subtitle": "Nous accompagnons les principaux acteurs des télécommunications et de la sécurité",
+    "items": [
+      {
+        "title": "Opérateurs Télécoms",
+        "description": "Solutions pour réseaux 4G/5G et infrastructures partagées"
+      },
+      {
+        "title": "Sécurité & Défense",
+        "description": "Réseaux critiques pour police, gendarmerie et protection civile"
+      },
+      {
+        "title": "Radiodiffusion",
+        "description": "Mâts et infrastructures pour radio AM/FM"
+      },
+      {
+        "title": "Transport",
+        "description": "Solutions pour autoroutes, voies ferrées et aéroports"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Ils Nous Font Confiance",
+    "subtitle": "Témoignages de nos clients et partenaires",
+    "items": [
+      {
+        "name": "Opérateur Télécom Majeur",
+        "comment": "NISATEL a fourni des solutions de pylônes robustes pour notre réseau 4G/5G avec un professionnalisme remarquable.",
+        "role": "Partenaire depuis 2017"
+      },
+      {
+        "name": "Ministère de l'Intérieur",
+        "comment": "Leur expertise en infrastructures de communication critique a été essentielle pour nos opérations de sécurité.",
+        "role": "Client institutionnel"
+      },
+      {
+        "name": "Société Autoroutière",
+        "comment": "Solutions de balisage et communication parfaitement adaptées à nos besoins le long des autoroutes.",
+        "role": "Client transport"
+      }
+    ]
+  }
+},
+
+  "wirelessPage": {
+    "title": "Solutions Wireless",
+    "subtitle": "Afin de répondre à la demande croissante du marché pour des équipements réseaux haute qualité, notre partenariat avec Dowslake consolide les solutions que nous offrons pour nos clients.",
+    "fiberSection": {
+      "title": "Travaux relatifs à la fibre optique",
+      "items": [
+        {
+          "text": "Fourniture et raccordement des matériels FO",
+          "details": "(Câble Optique, ODF, Jarretières, etc.)"
+        },
+        "Installation de répartiteur optique",
+        "Installation de Baies",
+        {
+          "text": "Test de FO",
+          "details": "(Réflectométrie)"
+        },
+        "Qualification des installations"
+      ]
+    },
+    "ctaSection": {
+      "title": "Besoin d'une infrastructure fibre ou wireless ?",
+      "text": "Contactez-nous pour une étude adaptée à vos besoins spécifiques.",
+      "button": "Demander un devis"
+    },
+    "partnerSection": {
+      "title": "Notre partenaire fiable",
+      "description": "Dowslake conçoit, fabrique et vend des équipements réseaux intelligents de 2 Mbps à 40 Gbps, couvrant l'Ethernet, le transport optique pour les réseaux de métro et les réseaux d'accès."
+    }
+  },
+  
+  "technicalSolutions": {
+    "title": "Solutions Techniques Professionnelles",
+    "subtitle": "Des infrastructures sur mesure pour répondre à vos besoins spécifiques",
+    "solutions": [
+      {
+        "title": "WIFI PROFESSIONNEL",
+        "description": [
+          "La mobilité est devenue un avantage concurrentiel ; vos collaborateurs passent plus de la moitié de leur temps de travail en dehors de leur bureau. Pour combiner souplesse et mobilité, Nisatel déploie des réseaux WIFI sur mesure, à très haut débit, sécurisés et fiables.",
+          "Avec Nisatel, vous optez pour les solutions WIFI dernières générations, performantes et conformes aux normes de sécurité et aux valeurs limites d'exposition du public aux champs électromagnétiques."
+        ],
+        "features": [
+          { "icon": "fas fa-wifi", "text": "Installation réseaux WIFI" },
+          { "icon": "fas fa-map-marker-alt", "text": "Géo localisation WIFI" },
+          { "icon": "fas fa-shield-alt", "text": "Authentification forte" },
+          { "icon": "fas fa-search", "text": "Détection des rogues APs" }
+        ],
+        "button": "Demander un audit"
+      },
+      {
+        "title": "SYSTÈME PARATONNERRE",
+        "description": [
+          "La pointe du paratonnerre doit être située à au moins deux mètres au-dessus de la zone à protéger. Les antennes réceptrices doivent être connectées à travers un éclateur d'isolement aux conducteurs de descente."
+        ],
+        "features": [
+          "Conducteurs de descente extérieurs",
+          "Rayon de courbure ≥ 20cm",
+          "Résistance de terre < 10 Ohms",
+          "Liaison équipotentielle"
+        ]
+      },
+      {
+        "title": "SYSTÈME BALISAGE",
+        "description": [
+          "Solutions complètes pour la signalisation et la délimitation des espaces professionnels."
+        ],
+        "features": [
+          "Poteaux flexibles intérieur/extérieur",
+          "Chaînes de délimitation",
+          "Barrières extensibles 2,3m ou 3,6m",
+          "Cônes de signalisation PVC"
+        ]
+      },
+      {
+        "title": "CLIMATISATION",
+        "description": [
+          "Systèmes de climatisation réversible pour un confort thermique optimal et une gestion énergétique efficace."
+        ],
+        "features": [
+          "Fonctionnement bi-été/hiver",
+          "Filtration de l'air",
+          "Contrôle hygrométrique 40-50%",
+          "Technologie inverter"
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "company": {
+      "name": "NISATEL",
+      "slogan": "Réseaux Télécom et Energie",
+      "description": "Entreprise marocaine spécialisée dans le développement, la fabrication et l'installation de pylônes et infrastructures de télécommunication."
+    },
+    "sections": {
+      "quickLinks": "LIENS RAPIDES",
+      "services": "SERVICES",
+      "contact": "CONTACT"
+    },
+    "links": {
+      "home": "Accueil",
+      "about": "Notre Entreprise",
+      "services": "Services",
+      "products": "Produits",
+      "applications": "Applications",
+      "contact": "Contact"
+    },
+    "servicesList": {
+      "engineering": "Bureau d'études",
+      "manufacturing": "Fabrication",
+      "installation": "Montage sur site",
+      "maintenance": "Maintenance",
+      "wifi": "WiFi Pro",
+      "fiber": "Fibre Optique"
+    },
+    "contactInfo": {
+      "phone": "+212 537 410 257",
+      "fax": "+212 537 410 226",
+      "email": "contact@nisatel.ma",
+      "website": "www.nisatel.ma",
+      "address": "06, Résidence Kader, Mers El Kheir, Témara"
+    },
+    "copyright": "Tous droits réservés."
+  },
+  
+  "header": {
+    "phone": "+212 5 37 41 02 57",
+    "email": "contact@nisatel.com",
+    "nav": {
+      "home": "Accueil",
+      "services": "Services",
+      "products": "Produits",
+      "applications": "Applications",
+      "contact": "Contact",
+      "productsDropdown": {
+        "towers": "Pylônes",
+        "wireless": "Solutions Wireless",
+        "technical": "Solutions Techniques"
+      }
+    }
+  }
+
+}
+  
+

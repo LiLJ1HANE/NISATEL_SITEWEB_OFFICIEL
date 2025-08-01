@@ -1,0 +1,530 @@
+{
+  "hero": {
+    "title": {
+      "part1": "Technical Expertise in",
+      "highlight": "Telecommunications"
+    },
+    "experience": "+9 years of experience at your service"
+  },
+  "applications": {
+    "sectionTitle": {
+      "part1": "Our areas",
+      "part2": "of expertise"
+    },
+    "sectionDescription": "Reliable, fast, and tailored network infrastructure solutions for demanding professionals.",
+    "mobileNetworks": {
+      "title": "Mobile Networks",
+      "description": "Comprehensive solutions for mobile operators with optimal coverage"
+    },
+    "emergency": {
+      "title": "Emergency & Safety Services",
+      "description": "Critical systems for Defense, Police, Firefighters, and emergency services"
+    },
+    "transport": {
+      "title": "Smart Transport Networks",
+      "description": "Infrastructure for highways, rail networks, and airports"
+    },
+    "privateComms": {
+      "title": "Private Radiocommunications",
+      "description": "Dedicated solutions for taxis, weather services, and companies"
+    },
+    "broadcasting": {
+      "title": "Professional Broadcasting",
+      "description": "Infrastructure for studio-quality AM/FM radio stations"
+    },
+    "measurement": {
+      "title": "Technical Measurement Masts",
+      "description": "Precise solutions for wind farms and environmental monitoring"
+    }
+  },
+  "cta": {
+    "title": {
+      "part1": "Need technical expertise?",
+      "part2": "Our engineers are here to help"
+    },
+    "button": "Contact Us"
+  },
+  "contact": {
+    "alertSent": "Your message has been sent. We will contact you soon.",
+    "services": {
+      "etudes": "Design Office",
+      "fabrication": "Manufacturing",
+      "installation": "Installation",
+      "maintenance": "Maintenance",
+      "autre": "Other request"
+    },
+    "phone": "Phone",
+    "fax": "Fax",
+    "email": "Email",
+    "address": "Address",
+    "addressDetails": "06, Résidence Kader, Mers El Kheir, Témara – Morocco",
+    "heroAlt": "NISATEL Contact Image",
+    "heroHighlight": "Contact",
+    "heroText": "our team",
+    "heroSubtitle": "We are here to answer your questions and support your projects.",
+    "contactDetails": "Our contact details",
+    "contactDetailsText": "Feel free to contact us by phone, email or visit our offices.",
+    "sendMessage": "Send us a message",
+    "sendMessageText": "Fill out this form and we will get back to you as soon as possible.",
+    "fullName": "Full name",
+    "company": "Company",
+    "service": "Concerned service",
+    "selectService": "Select a service",
+    "yourMessage": "Your message",
+    "sendButton": "Send message",
+    "location": "Our location",
+    "mapTitle": "NISATEL Location"
+  },
+  "servicesPage": {
+  "mainTitle": "Our Services",
+  "mainSubtitle": "With NISATEL, benefit from full support from design to maintenance of your infrastructure, along with innovative telecom solutions to optimize your communications.",
+  "main": {
+    "etudes": {
+      "title": "Design Office",
+      "description": "Our design office offers tailor-made solutions adapted to each customer's specifications (CCTP).",
+      "features": [
+        "Technical studies for pylon sizing according to standards (EUROCODES, BAEL, CM66, NV65, DTU...)",
+        "Structural and civil engineering sizing (foundations, reinforcements, anchors...)",
+        "Load studies and feasibility opinions on existing structures",
+        "Reinforcement solutions to increase load capacity",
+        "Specialized software: ROBOT STRUCTURAL ANALYSIS, SOLIDWORKS, AUTOCAD"
+      ]
+    },
+    "fabrication": {
+      "title": "Manufacturing",
+      "description": "All our products are manufactured in-house in our 3500m² factory located in Témara.",
+      "features": [
+        "Boilermaking and welding by qualified professionals",
+        "Hot-dip galvanization by our historical partner",
+        "Optional painting after galvanization",
+        "Quality control at every stage of production",
+        "Ability to respond to specific and urgent requests"
+      ]
+    },
+    "installation": {
+      "title": "On-site Installation",
+      "description": "Our teams ensure the installation of our products throughout the national territory.",
+      "features": [
+        "Delivery and assembly by certified personnel",
+        "Flatbed trucks with auxiliary cranes",
+        "Dedicated heavy truck fleet",
+        "Lifting by crane or helicopter for difficult sites",
+        "Trained and certified fitters"
+      ]
+    },
+    "maintenance": {
+      "title": "Maintenance",
+      "description": "We offer technical services for all types of metal structures.",
+      "features": [
+        "Regular inspection visits",
+        "Preventive and corrective maintenance",
+        "Post-fire, vandalism or weather damage expertise",
+        "Structural reinforcement solutions",
+        "Detailed reports with technical recommendations"
+      ]
+    }
+  },
+  "telecomTitle": "Telecom Services",
+  "telecomSubtitle": "With NISATEL, you have access to a wide range of telecom equipment, services, and consulting to optimize your performance and reduce costs.",
+  "telecom": {
+    "installation": {
+      "title": "Telecom Network Installation",
+      "description": "Complete deployment of telecom infrastructures tailored to your specific needs."
+    },
+    "maintenance": {
+      "title": "Telecom Network Maintenance",
+      "description": "Preventive and corrective maintenance to ensure service continuity."
+    },
+    "voip": {
+      "title": "IP & VOIP Telephony",
+      "description": "IP telephony solutions with PABX/IPBX for unified communication."
+    },
+    "mobilite": {
+      "title": "Intra/Inter-site Mobility",
+      "description": "Managing mobile communications between different geographic sites."
+    },
+    "convergence": {
+      "title": "Fixed/Mobile Convergence",
+      "description": "Seamless integration between your fixed and mobile telephony systems."
+    },
+    "interphone": {
+      "title": "Intercom & Access Control",
+      "description": "Communication and security systems for physical access."
+    },
+    "visio": {
+      "title": "Videoconferencing",
+      "description": "High-quality professional visual communication solutions."
+    },
+    "cti": {
+      "title": "Telephony-IT Coupling",
+      "description": "CTI integration to optimize your business processes."
+    }
+  },
+  "pylonesPage": {
+  "title": "Our Towers",
+  "subtitle": "Discover our full range of towers designed to meet all your telecommunications and antenna infrastructure needs.",
+  "products": [
+    {
+      "title": "Self-Supporting Towers",
+      "description": "Self-supporting towers provide maximum stability without the need for guy wires. Ideal for urban environments and confined sites."
+    },
+    {
+      "title": "Guyed Towers",
+      "description": "Guyed towers use cables for stability, offering a cost-effective solution for great heights."
+    },
+    {
+      "title": "Monotube Towers",
+      "description": "Compact and aesthetic, monotube towers are perfectly suited for urban or visually sensitive areas."
+    }
+  ]
+}
+
+},
+"productsPage": {
+  "hero": {
+    "title": "Our Towers",
+    "subtitle": "Discover our complete range of towers designed to meet all your telecommunication infrastructure and antenna needs."
+  },
+  "products": {
+    "autoportants": {
+      "title": "Self-Supporting Lattice Towers",
+      "features": [
+        "Access via internal/external ladder or nacelle",
+        "Constant or tapered profile",
+        "Custom cladding available",
+        "Custom paint finish",
+        "Work platforms and rest landings",
+        "Fall arrest system (rail or cable type)",
+        "Anti-intrusion system",
+        "Day/night/luminous marking",
+        "Antenna supports",
+        "Grounding and lightning protection system"
+      ]
+    },
+    "monotubes": {
+      "title": "Monopole Towers",
+      "features": [
+        "Access via internal/external ladder or nacelle",
+        "Optional fiberglass radome",
+        "Integrated advertising panel",
+        "Custom paint finish",
+        "Work platforms and rest landings",
+        "Fall arrest system (rail or cable type)",
+        "Anti-intrusion system",
+        "Day/night/luminous marking",
+        "Antenna supports",
+        "Grounding and lightning protection system"
+      ]
+    },
+    "speciaux": {
+      "title": "Special Towers",
+      "features": [
+        "Temporary towers for construction sites",
+        "Mobile chassis towers",
+        "Guyed towers for great heights",
+        "Tilt-down masts for sensitive areas",
+        "Custom solutions for specific needs"
+      ]
+    },
+    "renforcement": {
+      "title": "Tower Reinforcement",
+      "features": [
+        "Foundation reinforcement by overlaying",
+        "Expansion of existing foundations",
+        "Micropiles for consolidation",
+        "Structural banding",
+        "Replacement of existing elements",
+        "External jacketing for reinforcement"
+      ]
+    }
+  },
+  "ctaButton": "Request a quote"
+},
+"landingPage": {
+  "hero": {
+    "slides": [
+      {
+        "title": "Complete range of towers",
+        "subtitle": "designed to meet all your telecommunication infrastructure and antenna needs.",
+        "button": "Discover our services"
+      },
+      {
+        "title": "Need fiber or wireless infrastructure?",
+        "subtitle": "Contact us for a study tailored to your specific needs.",
+        "button": "Learn more"
+      },
+      {
+        "title": "Professional Technical Solutions",
+        "subtitle": "PROFESSIONAL WIFI, LIGHTNING PROTECTION, MARKING, AIR CONDITIONING...",
+        "button": "Contact us"
+      }
+    ]
+  },
+  "about": {
+    "title": "NISATEL - Moroccan Telecom Expertise",
+    "description1": "Founded in 2016, NISATEL is an independent Moroccan company specialized in the development, manufacturing and installation of towers and telecommunication infrastructures. We work closely with radio network owners, developers and operators to provide customized solutions.",
+    "description2": "Our 3500m² factory in Témara and our integrated design office allow us to master the entire value chain, from design to installation.",
+    "button": "Our story"
+  },
+  "values": {
+    "title": "Our Values",
+    "subtitle": "The principles that guide our daily actions",
+    "items": [
+      "We undertake every day to build the networks of tomorrow and create a world of sustainable progress...",
+      "We learn humbly from each other to give our best.",
+      "Customer satisfaction is our pride."
+    ]
+  },
+  "services": {
+    "title": "Our Key Services",
+    "subtitle": "Complete solutions for your telecommunications needs",
+    "items": [
+      {
+        "title": "Design Office",
+        "description": "Custom design according to EUROCODES, BAEL, CM66 standards with our specialized software (ROBOT STRUCTURAL ANALYSIS, SOLIDWORKS).",
+        "button": "See more"
+      },
+      {
+        "title": "Manufacturing",
+        "description": "Production in our 3500m² factory in Témara by qualified boilermakers and welders, with hot-dip galvanizing.",
+        "button": "See more"
+      },
+      {
+        "title": "Maintenance",
+        "description": "Inspection visits, post-incident expertise and reinforcement solutions to extend the life of your installations.",
+        "button": "See more"
+      }
+    ]
+  },
+  "products": {
+    "title": "Our Flagship Products",
+    "subtitle": "Solutions adapted to each technical need",
+    "tabs": {
+      "pylones": "Towers",
+      "wireless": "Wireless Solutions",
+      "energie": "Energy"
+    },
+    "items": {
+      "pylones": {
+        "title": "Self-Supporting Lattice Towers",
+        "features": [
+          "Access via internal/external ladder or nacelle",
+          "Constant or tapered profile",
+          "Custom cladding and paint options",
+          "Integrated fall arrest and anti-intrusion systems"
+        ],
+        "button": "View range"
+      },
+      "wireless": {
+        "title": "High-Speed Wireless Solutions",
+        "features": [
+          "Network equipment from 2Mbps to 40Gbps",
+          "Ethernet coverage and optical transport",
+          "Fiber optic installation and testing",
+          "Reflectometry and qualification"
+        ],
+        "button": "View solutions"
+      },
+      "energie": {
+        "title": "Energy Solutions",
+        "features": [
+          "Energy workshops from 300A to 3000A",
+          "Sealed or open lead batteries",
+          "High performance inverters",
+          "Custom AC/DC power cabinets"
+        ],
+        "button": "View configurations"
+      }
+    }
+  },
+  "applications": {
+    "title": "Our Areas of Intervention",
+    "subtitle": "We support major players in telecommunications and security",
+    "items": [
+      {
+        "title": "Telecom Operators",
+        "description": "Solutions for 4G/5G networks and shared infrastructures"
+      },
+      {
+        "title": "Security & Defense",
+        "description": "Critical networks for police, gendarmerie and civil protection"
+      },
+      {
+        "title": "Broadcasting",
+        "description": "Masts and infrastructures for AM/FM radio"
+      },
+      {
+        "title": "Transport",
+        "description": "Solutions for highways, railways and airports"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "They Trust Us",
+    "subtitle": "Testimonials from our clients and partners",
+    "items": [
+      {
+        "name": "Major Telecom Operator",
+        "comment": "NISATEL provided robust tower solutions for our 4G/5G network with remarkable professionalism.",
+        "role": "Partner since 2017"
+      },
+      {
+        "name": "Ministry of Interior",
+        "comment": "Their expertise in critical communication infrastructures was essential for our security operations.",
+        "role": "Institutional client"
+      },
+      {
+        "name": "Highway Company",
+        "comment": "Marking and communication solutions perfectly adapted to our needs along highways.",
+        "role": "Transport client"
+      }
+    ]
+  }
+},
+
+  "wirelessPage": {
+    "title": "Wireless Solutions",
+    "subtitle": "To meet the growing market demand for high-quality network equipment, our partnership with Dowslake strengthens the solutions we offer to our customers.",
+    "fiberSection": {
+      "title": "Fiber Optic Works",
+      "items": [
+        {
+          "text": "Supply and connection of FO equipment",
+          "details": "(Optical Cable, ODF, Patch Cords, etc.)"
+        },
+        "Optical splitter installation",
+        "Rack installation",
+        {
+          "text": "Fiber Optic Testing",
+          "details": "(Reflectometry)"
+        },
+        "Installation qualification"
+      ]
+    },
+    "ctaSection": {
+      "title": "Need fiber or wireless infrastructure?",
+      "text": "Contact us for a study tailored to your specific needs.",
+      "button": "Request a quote"
+    },
+    "partnerSection": {
+      "title": "Our reliable partner",
+      "description": "Dowslake designs, manufactures and sells intelligent network equipment from 2 Mbps to 40 Gbps, covering Ethernet, optical transport for metro networks and access networks."
+    }
+  },
+  
+  "technicalSolutions": {
+    "title": "Professional Technical Solutions",
+    "subtitle": "Custom infrastructures to meet your specific needs",
+    "solutions": [
+      {
+        "title": "PROFESSIONAL WIFI",
+        "description": [
+          "Mobility has become a competitive advantage; your employees spend more than half of their working time away from their desks. To combine flexibility and mobility, Nisatel deploys custom, high-speed, secure and reliable WIFI networks.",
+          "With Nisatel, you choose the latest generation WIFI solutions, high-performance and compliant with safety standards and public exposure limits to electromagnetic fields."
+        ],
+        "features": [
+          { "icon": "fas fa-wifi", "text": "WIFI network installation" },
+          { "icon": "fas fa-map-marker-alt", "text": "WIFI geolocation" },
+          { "icon": "fas fa-shield-alt", "text": "Strong authentication" },
+          { "icon": "fas fa-search", "text": "Rogue APs detection" }
+        ],
+        "button": "Request an audit"
+      },
+      {
+        "title": "LIGHTNING PROTECTION SYSTEM",
+        "description": [
+          "The lightning rod tip must be located at least two meters above the area to be protected. The receiving antennas must be connected through an isolation spark gap to the down conductors."
+        ],
+        "features": [
+          "External down conductors",
+          "Bending radius ≥ 20cm",
+          "Ground resistance < 10 Ohms",
+          "Equipotential bonding"
+        ]
+      },
+      {
+        "title": "MARKING SYSTEM",
+        "description": [
+          "Complete solutions for signaling and delimiting professional spaces."
+        ],
+        "features": [
+          "Indoor/outdoor flexible posts",
+          "Delimitation chains",
+          "Extendable barriers 2.3m or 3.6m",
+          "PVC signaling cones"
+        ]
+      },
+      {
+        "title": "AIR CONDITIONING",
+        "description": [
+          "Reversible air conditioning systems for optimal thermal comfort and efficient energy management."
+        ],
+        "features": [
+          "Summer/winter operation",
+          "Air filtration",
+          "Hygrometric control 40-50%",
+          "Inverter technology"
+        ]
+      }
+    ]
+  },
+  
+  "footer": {
+    "company": {
+      "name": "NISATEL",
+      "slogan": "Telecom & Energy Networks",
+      "description": "Moroccan company specialized in the development, manufacturing and installation of towers and telecommunication infrastructures."
+    },
+    "sections": {
+      "quickLinks": "QUICK LINKS",
+      "services": "SERVICES",
+      "contact": "CONTACT"
+    },
+    "links": {
+      "home": "Home",
+      "about": "Our Company",
+      "services": "Services",
+      "products": "Products",
+      "applications": "Applications",
+      "contact": "Contact"
+    },
+    "servicesList": {
+      "engineering": "Engineering Office",
+      "manufacturing": "Manufacturing",
+      "installation": "On-site Assembly",
+      "maintenance": "Maintenance",
+      "wifi": "Professional WiFi",
+      "fiber": "Fiber Optics"
+    },
+    "contactInfo": {
+      "phone": "+212 537 410 257",
+      "fax": "+212 537 410 226",
+      "email": "contact@nisatel.ma",
+      "website": "www.nisatel.ma",
+      "address": "06, Kader Residence, Mers El Kheir, Temara"
+    },
+    "copyright": "All rights reserved."
+  },
+  
+  "header": {
+    "phone": "+212 5 37 41 02 57",
+    "email": "contact@nisatel.com",
+    "nav": {
+      "home": "Home",
+      "services": "Services",
+      "products": "Products",
+      "applications": "Applications",
+      "contact": "Contact",
+      "productsDropdown": {
+        "towers": "Towers",
+        "wireless": "Wireless Solutions",
+        "technical": "Technical Solutions"
+      }
+    }
+  
+}
+
+  
+
+
+}
