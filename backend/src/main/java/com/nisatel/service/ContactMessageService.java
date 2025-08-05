@@ -8,18 +8,22 @@ import java.util.List;
 
 @Service
 public class ContactMessageService {
-    private final ContactMessageRepository repo;
 
-    public ContactMessageService(ContactMessageRepository repo) {
+    private final ContactMessageRepository repo;
+    private final EmailService emailService;
+
+    public ContactMessageService(ContactMessageRepository repo, EmailService emailService) {
         this.repo = repo;
+        this.emailService = emailService;
     }
 
     public ContactMessage save(ContactMessage message) {
-        return repo.save(message);
+        ContactMessage saved = repo.save(message);   // ✅ 1. on sauvegarde
+        emailService.sendContactNotification(saved); // ✉️ 2. on envoie l'email
+        return saved;
     }
 
     public List<ContactMessage> getAll() {
         return repo.findAll();
     }
 }
-

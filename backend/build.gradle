@@ -41,6 +41,9 @@ dependencies {
 // Test (facultatif)
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
+    implementation 'org.springframework.boot:spring-boot-starter-mail'
+
+
 }
 
 test {

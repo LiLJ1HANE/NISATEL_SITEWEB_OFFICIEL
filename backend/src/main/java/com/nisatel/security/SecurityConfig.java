@@ -28,6 +28,7 @@ public class SecurityConfig {
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers("/api/auth/**", "/api/public/**").permitAll()// Fixed permital() to permitAll()
                         .requestMatchers("/api/contact").permitAll()
+                        .requestMatchers("/test-mail").permitAll() 
                         .requestMatchers("/api/admin/**").hasRole("ADMIN")
                         .anyRequest().authenticated()
                 )
