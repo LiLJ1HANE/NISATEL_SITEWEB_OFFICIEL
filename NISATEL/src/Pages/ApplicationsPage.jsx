@@ -1,20 +1,41 @@
-import React, { useEffect, useState } from 'react';
-import axios from 'axios';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 const ApplicationPage = () => {
   const { t } = useTranslation();
-  const [applications, setApplications] = useState([]);
 
-  useEffect(() => {
-    axios.get("http://localhost:8080/api/applications")
-      .then((response) => {
-        setApplications(response.data);
-      })
-      .catch((error) => {
-        console.error("Erreur lors du chargement des applications :", error);
-      });
-  }, []);
+  const applications = [
+    {
+      image: "/images/mobile-networks.jpg",
+      title: t("applications.mobileNetworks.title"),
+      description: t("applications.mobileNetworks.description")
+    },
+    {
+      image: "/images/emergency-comms.jpg",
+      title: t("applications.emergency.title"),
+      description: t("applications.emergency.description")
+    },
+    {
+      image: "/images/transport-networks.jpg",
+      title: t("applications.transport.title"),
+      description: t("applications.transport.description")
+    },
+    {
+      image: "/images/private-comms.jpg",
+      title: t("applications.privateComms.title"),
+      description: t("applications.privateComms.description")
+    },
+    {
+      image: "/images/broadcasting.jpg",
+      title: t("applications.broadcasting.title"),
+      description: t("applications.broadcasting.description")
+    },
+    {
+      image: "/images/measurement.jpg",
+      title: t("applications.measurement.title"),
+      description: t("applications.measurement.description")
+    }
+  ];
 
   return (
     <div className="min-h-screen">
@@ -53,7 +74,7 @@ const ApplicationPage = () => {
               <div className="relative h-48 overflow-hidden">
                 <img
                   className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-110"
-                  src={app.image_url}
+                  src={app.image}
                   alt={app.title}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-blue-900/80 to-transparent"></div>
