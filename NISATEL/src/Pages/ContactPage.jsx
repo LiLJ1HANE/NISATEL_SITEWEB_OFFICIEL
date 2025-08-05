@@ -1,40 +1,18 @@
-import React, { useState } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import { FiPhone, FiMail, FiMapPin, FiSend } from "react-icons/fi";
 import { FaFax } from "react-icons/fa";
 import headerImage from "../assets/Business-phones-entreprise.jpg";
 import Select from 'react-select';
 import { useTranslation } from "react-i18next";
-import axios from "axios";
+import { useState } from "react";
 
 export default function ContactPage() {
   const { t } = useTranslation();
-
-  const [fullName, setFullName] = useState("");
-  const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState("");
-  const [company, setCompany] = useState("");
   const [selectedService, setSelectedService] = useState("");
-  const [message, setMessage] = useState("");
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      await axios.post("http://localhost:8080/api/contact", {
-        name: fullName,
-        email,
-        phone,
-        company,
-        service: selectedService,
-        message,
-      });
-      alert(" Votre message a été envoyé avec succès !");
-      setFullName(""); setEmail(""); setPhone("");
-      setCompany(""); setSelectedService(""); setMessage("");
-    } catch (error) {
-      console.error("Erreur lors de l’envoi :", error);
-      alert(" Une erreur est survenue. Veuillez réessayer.");
-    }
+  const handleSubmit = () => {
+    alert("✅ Votre message a été envoyé avec succès !");
   };
 
   const options = [
@@ -76,10 +54,14 @@ export default function ContactPage() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Hero */}
+      {/* Hero Section */}
       <div className="relative pt-10">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 to-orange-600/60 z-10" />
-        <img src={headerImage} alt={t("contact.heroAlt")} className="w-full h-96 object-cover object-center" />
+        <img 
+          src={headerImage} 
+          alt={t("contact.heroAlt")} 
+          className="w-full h-96 object-cover object-center"
+        />
         <div className="absolute inset-0 z-20 flex items-center justify-center">
           <div className="text-center px-4 max-w-4xl">
             <motion.h1
@@ -102,10 +84,10 @@ export default function ContactPage() {
         </div>
       </div>
 
-      {/* Content */}
+      {/* Main Content */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          {/* Contact Infos */}
+          {/* Contact Information */}
           <motion.div
             className="space-y-6"
             initial={{ opacity: 0, x: -50 }}
@@ -130,7 +112,10 @@ export default function ContactPage() {
                 <div className="ml-4">
                   <h3 className="text-lg font-medium text-gray-900">{item.title}</h3>
                   {item.link ? (
-                    <a href={item.link} className="mt-1 text-gray-600 hover:text-orange-600 block">
+                    <a 
+                      href={item.link} 
+                      className="mt-1 text-gray-600 hover:text-orange-600 transition-colors duration-200 block"
+                    >
                       {item.info}
                     </a>
                   ) : (
@@ -154,52 +139,87 @@ export default function ContactPage() {
               <p className="mt-4 text-gray-600">{t("contact.sendMessageText")}</p>
             </div>
 
-            <form onSubmit={handleSubmit} className="space-y-6">
+            <form action="https://formsubmit.co/contact@nisatel.ma" method="POST" onSubmit={handleSubmit} className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1">
+                  <label htmlFor="fullname" className="block text-sm font-medium text-gray-700 mb-1">
                     {t("contact.fullName")} <span className="text-orange-500">*</span>
                   </label>
-                  <input type="text" required value={fullName} onChange={(e) => setFullName(e.target.value)} className="w-full px-4 py-2 border border-stone-300 rounded-md" />
+                  <input
+                    type="text"
+                    id="fullname" name="NomComplet"
+                    required
+                    className="w-full px-4 py-2 border border-stone-300 hover:border-stone-400 rounded-md focus:border-2 focus:border-blue-500 focus:outline-none focus:ring-0 "
+                  />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1">
+                  <label htmlFor="company" className="block text-sm font-medium text-gray-700 mb-1">
                     {t("contact.company")}
                   </label>
-                  <input type="text" value={company} onChange={(e) => setCompany(e.target.value)} className="w-full px-4 py-2 border border-stone-300 rounded-md" />
+                  <input
+                    type="text"
+                    id="company" name="Entreprise"
+                    className="w-full px-4 py-2 border border-stone-300 hover:border-stone-400 rounded-md focus:border-2 focus:border-blue-500 focus:outline-none focus:ring-0"
+                  />
                 </div>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1">
+                  <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
                     {t("contact.email")} <span className="text-orange-500">*</span>
                   </label>
-                  <input type="email" required value={email} onChange={(e) => setEmail(e.target.value)} className="w-full px-4 py-2 border border-stone-300 rounded-md" />
+                  <input
+                    type="email"
+                    id="email" name="Email"
+                    required
+                    className="w-full px-4 py-2 border border-stone-300 hover:border-stone-400 rounded-md focus:border-2 focus:border-blue-500 focus:outline-none focus:ring-0"
+                  />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1">
+                  <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
                     {t("contact.phone")}
                   </label>
-                  <input type="tel" value={phone} onChange={(e) => setPhone(e.target.value)} className="w-full px-4 py-2 border border-stone-300 rounded-md" />
+                  <input
+                    type="tel"
+                    id="phone" name="Telephone"
+                    className="w-full px-4 py-2 border border-stone-300 hover:border-stone-400 rounded-md focus:border-2 focus:border-blue-500 focus:outline-none focus:ring-0"
+                  />
                 </div>
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">
+                <label htmlFor="service" className="block text-sm font-medium text-gray-700 mb-1">
                   {t("contact.service")} <span className="text-orange-500">*</span>
                 </label>
-                <Select options={options} placeholder={t("contact.selectService")} className="w-full" onChange={(o) => setSelectedService(o.value)} />
+
+                <Select
+                  options={options}
+                  placeholder={t("contact.selectService")}
+                  className="w-full"
+                  classNamePrefix="custom"
+                  onChange={(selectedOption) => setSelectedService(selectedOption.value)}
+                />
+
+                <input type="hidden" name="service" value={selectedService} />
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">
+                <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
                   {t("contact.yourMessage")} <span className="text-orange-500">*</span>
                 </label>
-                <textarea rows="5" required value={message} onChange={(e) => setMessage(e.target.value)} className="w-full px-4 py-2 border border-stone-300 rounded-md" />
+                <textarea
+                  id="message" name="Message"
+                  rows="5"
+                  required
+                  className="w-full px-4 py-2 border border-stone-300 hover:border-stone-400 rounded-md focus:border-2 focus:border-blue-500 focus:outline-none focus:ring-0"
+                ></textarea>
               </div>
 
-              <button type="submit" className="w-full px-6 py-3 bg-blue-900 text-white font-medium rounded-md hover:opacity-90 transition-opacity flex items-center justify-center space-x-2">
+              <button
+                type="submit"
+                className="w-full px-6 py-3 bg-blue-900 text-white font-medium rounded-md hover:opacity-90 transition-opacity flex items-center justify-center space-x-2"
+              >
                 <span>{t("contact.sendButton")}</span>
                 <FiSend className="text-lg" />
               </button>
@@ -207,8 +227,13 @@ export default function ContactPage() {
           </motion.div>
         </div>
 
-        {/* Map */}
-        <motion.div className="mt-20" initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }}>
+        {/* Map Section */}
+        <motion.div
+          className="mt-20"
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.2 }}
+        >
           <h2 className="text-2xl font-semibold text-gray-900 mb-6 text-center">{t("contact.location")}</h2>
           <div className="rounded-xl overflow-hidden shadow-lg border border-gray-200">
             <iframe
