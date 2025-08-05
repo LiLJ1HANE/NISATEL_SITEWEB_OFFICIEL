@@ -1,37 +1,42 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-
+import mobile from '../assets/mobile-networks.jpg'
+import emergency from '../assets/emergency-comms.jpg';
+import transport from '../assets/transport-networks.jpg';
+import privatecomms from '../assets/private-comms.jpg';
+import broadcasting from '../assets/broadcasting.jpg';
+import measurement from '../assets/measurement.jpg';
 const ApplicationPage = () => {
   const { t } = useTranslation();
 
   const applications = [
     {
-      image: "/images/mobile-networks.jpg",
+      image: mobile,
       title: t("applications.mobileNetworks.title"),
       description: t("applications.mobileNetworks.description")
     },
     {
-      image: "/images/emergency-comms.jpg",
+      image: emergency,
       title: t("applications.emergency.title"),
       description: t("applications.emergency.description")
     },
     {
-      image: "/images/transport-networks.jpg",
+      image: transport,
       title: t("applications.transport.title"),
       description: t("applications.transport.description")
     },
     {
-      image: "/images/private-comms.jpg",
+      image:privatecomms,
       title: t("applications.privateComms.title"),
       description: t("applications.privateComms.description")
     },
     {
-      image: "/images/broadcasting.jpg",
+      image: broadcasting,
       title: t("applications.broadcasting.title"),
       description: t("applications.broadcasting.description")
     },
     {
-      image: "/images/measurement.jpg",
+      image: measurement,
       title: t("applications.measurement.title"),
       description: t("applications.measurement.description")
     }
